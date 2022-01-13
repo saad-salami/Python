@@ -2,6 +2,7 @@ import itertools
 
 
 def win(current_game):
+    print('Hello')
     def all_same(l):
         if l.count(l[0]) == len(l) and l[0] != 0:
             return True
